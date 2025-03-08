@@ -3,6 +3,7 @@ let nomeDoHeroi = "Athena"
 let nivelDoHeroi
 let xp = 4054
 
+//estrutura de decisão
 if (xp < 1000) {
     nivelDoHeroi = "Ferro";
 } else if (xp >= 1001 && xp <= 2000) {
@@ -21,4 +22,5 @@ if (xp < 1000) {
     nivelDoHeroi = "Radiante";
 }
 
+//saída
 console.log("O herói de nome " + nomeDoHeroi + "está no nível de " + nivelDoHeroi)
